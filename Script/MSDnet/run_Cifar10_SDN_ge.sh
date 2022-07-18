@@ -1,0 +1,25 @@
+cd ../../
+save_dir="./results/msdnet_ge/"
+seed 0
+python M0_main.py \
+--data-root "./data/cifar/" \
+--save $save_dir \
+--usingsdn 0 \
+--data cifar10 \
+--task cifar10 \
+--gpu 0 \
+--batch-size 64 \
+--seed 0 \
+--lr 0.1 \
+--use-valid \
+-j 1 \
+--arch "msdnet_ge" \
+--epochs 300 \
+--nBlocks 7 \
+--stepmode even \
+--step 2 \
+--base 4 \
+--grFactor 1-2-4 \
+--bnFactor 1-2-4 \
+--growthRate 16 \
+--nChannels 16
