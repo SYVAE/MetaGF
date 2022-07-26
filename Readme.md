@@ -45,7 +45,7 @@ data
 - We adopt EMA updating policy for the meta-weights training
 - We train the ImageNet in distributed mode
 
-This version of code may have bugs.  We will continue updating it. (Training code about vgg-SDN coming soon...)
+This version of code may have bugs.  We will continue updating it. 
 
 ### Acknowledgements
 
