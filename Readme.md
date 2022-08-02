@@ -47,6 +47,11 @@ data
 
 This version of code may have bugs.  We will continue updating it. 
 
+### New results:
+The accuracy of Cagrad on ImageNet:
+58.37/64.21/66.88/68.22/69.42
+
+
 ### Acknowledgements
 
 We thanks for the public codes provided by the following works:
