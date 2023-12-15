@@ -1,6 +1,7 @@
 # Meta Gradient Fusion: Training Dynamic-Depth Neural Networks Harmoniously
 
-
+### Important Modification:
+if you want apply meta-gf to your multi-task learning program, please see the guideline in QuicklyApplication_MetaGF_ForMultitask.zip
 
 ### Install:
 
